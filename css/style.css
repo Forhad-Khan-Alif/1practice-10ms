@@ -1,4 +1,35 @@
+body{
+    background: #e8e9f0;
+    /* background-image: url(/images/web\ development\ road\ map\ 7-7-22.jpg);
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-position: 40em 100em;
+    background-position: center center; */
+}
 h3 {
+    color: red;
+    text-align: center;
+}
+#unique_idpractice{
+    color: red;
+    text-align: center;
+}
+div.akoi_stylealltag_classuse{
+    color: blueviolet;
+    text-align: right;
+}
+p.akoi_stylealltag_classuse{
     color: yellowgreen;
     text-align: center;
 }
+.akoi_stylealltag_classuse{
+    background-color: whitesmoke;
+}
+#x_y_axis{
+    color: green;
+    text-align: center;
+}
+/* img{
+    width: 50%;
+} */
