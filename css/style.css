@@ -38,34 +38,78 @@ p.akoi_stylealltag_classuse{
 h1{
     border: 2px solid red;
 }
-.border_style2{
+#border_style2{
     border: 2px dotted;
 }
-.border_style3{
+#border_style3{
     border: 2px dashed;
 }
-.border_style4{
+#border_style4{
     border: 2px double;
 }
-.border_style5{
+#border_style5{
     border: 2px groove;
 }
-.border_style6{
+#border_style6{
     border: 2px ridge;
 }
-.border_style7{
+#border_style7{
     border: 2px inset;
 }
-.border_style8{
+#border_style8{
     border: 2px outset;
 }
-.border_style9{
+#border_style9{
     border: 2px none;
 }
-.border_style10{
+#border_style10{
     border: 2px hidden;
 }
 
 /* Interesting topic: padding, margin */
-
+#padding_style_paragraph{
+    /* background-color: aqua; */
+    /* padding: 20px; (bottom, top, left, right all pashe) */
+    padding-top: 10px;
+    padding-left: 500px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    /* padding-bottom: 10px;
+    padding-top: 40px; */
+}
+/* margin
+    margin: 10px; (bottom, top, left, right all pashe) */
+#margin_style_paragraph{
+    /* background-color: aqua; */
+    /* margin: 10px; (bottom, top, left, right all pashe) */
+    margin-bottom: 100px;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 70px;
+    /* margin-bottom: 10px;
+    margin-top: 100px; */
+}
+/* akoi css style shongkhepe lekhar upay */
+#padding_style_paragraph, #margin_style_paragraph{
+    background-color: aqua;
+}
+/* 5 Video: Width, Height, Overflow, Alignment */
+#Width_Height{
+    background-color: lightgreen;
+    width: 400px;
+    height: 260px;
+    /* width: 480px;
+    height: auto; */
+}
+/* Overflow */
+#Overflow_style{
+    background-color: mediumaquamarine;
+    width: 100px;
+    height: 270px;
+    overflow: hidden;
+    /* overflow: auto;
+    overflow: scroll;
+    overflow: visible; */
+}
+/* 6 Video: Learning  Combinators */
 
