@@ -33,3 +33,39 @@ p.akoi_stylealltag_classuse{
 /* img{
     width: 50%;
 } */
+
+/* 4 video: Border, margin, padding */
+h1{
+    border: 2px solid red;
+}
+.border_style2{
+    border: 2px dotted;
+}
+.border_style3{
+    border: 2px dashed;
+}
+.border_style4{
+    border: 2px double;
+}
+.border_style5{
+    border: 2px groove;
+}
+.border_style6{
+    border: 2px ridge;
+}
+.border_style7{
+    border: 2px inset;
+}
+.border_style8{
+    border: 2px outset;
+}
+.border_style9{
+    border: 2px none;
+}
+.border_style10{
+    border: 2px hidden;
+}
+
+/* Interesting topic: padding, margin */
+
+
