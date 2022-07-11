@@ -231,7 +231,7 @@ div+p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    /* width: 100%; */
 }
 #Understanding_transforms_2d_3d img:hover {
     transform: scale(1.5);
