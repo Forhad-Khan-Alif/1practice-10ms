@@ -1,4 +1,10 @@
-body{
+@font-face {
+    /* internal font source */
+    font-family: 'Mukti';
+    src: url(../fonts/Mukti_Book.ttf);
+}
+
+body {
     background: #e8e9f0;
     /* background-image: url(/images/web\ development\ road\ map\ 7-7-22.jpg);
     background-repeat: no-repeat;
@@ -7,65 +13,227 @@ body{
     background-position: 40em 100em;
     background-position: center center; */
 }
+
 h3 {
     color: red;
     text-align: center;
 }
-#unique_idpractice{
+
+#unique_idpractice {
     color: red;
     text-align: center;
 }
-div.akoi_stylealltag_classuse{
+
+div.akoi_stylealltag_classuse {
     color: blueviolet;
     text-align: right;
 }
-p.akoi_stylealltag_classuse{
+
+p.akoi_stylealltag_classuse {
     color: yellowgreen;
     text-align: center;
 }
-.akoi_stylealltag_classuse{
+
+.akoi_stylealltag_classuse {
     background-color: whitesmoke;
 }
-#x_y_axis{
+
+#x_y_axis {
     color: green;
     text-align: center;
 }
+
 /* img{
     width: 50%;
 } */
 
 /* 4 video: Border, margin, padding */
-h1{
+h1 {
     border: 2px solid red;
 }
-.border_style2{
+
+#border_style2 {
     border: 2px dotted;
 }
-.border_style3{
+
+#border_style3 {
     border: 2px dashed;
 }
-.border_style4{
+
+#border_style4 {
     border: 2px double;
 }
-.border_style5{
+
+#border_style5 {
     border: 2px groove;
 }
-.border_style6{
+
+#border_style6 {
     border: 2px ridge;
 }
-.border_style7{
+
+#border_style7 {
     border: 2px inset;
 }
-.border_style8{
+
+#border_style8 {
     border: 2px outset;
 }
-.border_style9{
+
+#border_style9 {
     border: 2px none;
 }
-.border_style10{
+
+#border_style10 {
     border: 2px hidden;
 }
 
 /* Interesting topic: padding, margin */
+#padding_style_paragraph {
+    /* background-color: aqua; */
+    /* padding: 20px; (bottom, top, left, right all pashe) */
+    padding-top: 10px;
+    padding-left: 500px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    /* padding-bottom: 10px;
+    padding-top: 40px; */
+}
 
+/* margin
+    margin: 10px; (bottom, top, left, right all pashe) */
+#margin_style_paragraph {
+    /* background-color: aqua; */
+    /* margin: 10px; (bottom, top, left, right all pashe) */
+    margin-bottom: 100px;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 70px;
+    /* margin-bottom: 10px;
+    margin-top: 100px; */
+}
 
+/* akoi css style shongkhepe lekhar upay */
+#padding_style_paragraph,
+#margin_style_paragraph {
+    background-color: aqua;
+}
+
+/* 5 Video: Width, Height, Overflow, Alignment */
+#Width_Height {
+    background-color: lightgreen;
+    width: 400px;
+    height: 260px;
+    /* width: 480px;
+    height: auto; */
+}
+
+/* Overflow */
+#Overflow_style {
+    background-color: mediumaquamarine;
+    width: 100px;
+    height: 270px;
+    overflow: hidden;
+    /* overflow: auto;
+    overflow: scroll;
+    overflow: visible; */
+}
+
+/* 6 Video: Learning  Combinators */
+#combinator_parent_descendant_bongshodhorPart1 p {
+    background-color: red;
+    text-align: center;
+}
+
+/* 2 Part: Child Selector */
+#Combinator_Child_Selector_BongshodhorPart2>p {
+    background-color: rgb(2, 190, 2);
+}
+
+/* 3rd part: Adjacent Sibling Selector */
+#Combinator_Adjacent_Sibling_Selector_Part3 h1 {
+    background-color: yellow;
+}
+
+div+p {
+    background-color: yellow;
+}
+
+#general_sibling_selector~p {
+    background-color: green;
+}
+
+/* 7 Video: Pseudo Class */
+#Pseudo_Class_anchorLink a:link {
+    color: red;
+}
+
+#Pseudo_Class_anchorLink a:visited {
+    color: green;
+}
+
+#Pseudo_Class_anchorLink a:hover {
+    color: blue;
+    background-color: aqua;
+    font-size: large;
+}
+
+/* 8 Video: Fonts */
+#google_Poppins_font {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+#bangla_mukti_Internal_font p {
+    font-family: 'Mukti', sans-serif;
+    font-weight: bold;
+}
+
+/* CSS3, 1 Video: Understanding opacity */
+#opacity_transparency p {
+    opacity: 0.4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: rgba(40, 79, 104, .5);
+}
+
+/* CSS3, 2 Video: rounded corner */
+/* #border_radious_rounded_corner button{
+    border-radius: 27px;
+} */
+#border_radious_rounded_corner button {
+    border-radius: 0px 10px 10px 10px;
+    /* Clock Wise */
+}
+
+/* CSS3, 3 Video: Animations and Transitions */
+#Animations_transiions1 h1 {
+    background-color: aquamarine;
+    /* transition: all 1000ms; */
+    transition: all 800ms linear 1s;
+}
+
+#Animations_transiions_Specifically2 {
+    background-color: green;
+    border-radius: 40px;
+    transition: border-radius 4000ms;
+}
+
+/* 4 Video: Shadows and Effects */
+#Shadow_effects h1 {
+    text-shadow: 2px 2px 5px #888;
+}
+
+/* 5 Video Understanding transforms */
+
+    /* image center korar css */
+#Understanding_transforms_2d_3d img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 100%; */
+}
+#Understanding_transforms_2d_3d img:hover {
+    transform: scale(1.5);
+    transition: transform 800ms;
+}
