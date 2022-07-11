@@ -112,4 +112,23 @@ h1{
     overflow: visible; */
 }
 /* 6 Video: Learning  Combinators */
+#combinator_parent_descendant_bongshodhorPart1 p{
+    background-color: red;
+    text-align: center;
+}
+/* 2 Part: Child Selector */
+#Combinator_Child_Selector_BongshodhorPart2 > p{
+    background-color: rgb(2, 190, 2);
+}
+/* 3rd part: Adjacent Sibling Selector */
+#Combinator_Adjacent_Sibling_Selector_Part3  h1{
+    background-color: yellow;
+}
+div + p {
+    background-color: yellow;
+  }
+#general_sibling_selector ~ p {
+    background-color: green;
+  }
+
 
