@@ -171,18 +171,69 @@ div+p {
 #Pseudo_Class_anchorLink a:visited {
     color: green;
 }
-#Pseudo_Class_anchorLink a:hover{
+
+#Pseudo_Class_anchorLink a:hover {
     color: blue;
     background-color: aqua;
     font-size: large;
 }
 
 /* 8 Video: Fonts */
-#google_Poppins_font{
+#google_Poppins_font {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 }
-#bangla_mukti_Internal_font p{
+
+#bangla_mukti_Internal_font p {
     font-family: 'Mukti', sans-serif;
     font-weight: bold;
+}
+
+/* CSS3, 1 Video: Understanding opacity */
+#opacity_transparency p {
+    opacity: 0.4;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    background-color: rgba(40, 79, 104, .5);
+}
+
+/* CSS3, 2 Video: rounded corner */
+/* #border_radious_rounded_corner button{
+    border-radius: 27px;
+} */
+#border_radious_rounded_corner button {
+    border-radius: 0px 10px 10px 10px;
+    /* Clock Wise */
+}
+
+/* CSS3, 3 Video: Animations and Transitions */
+#Animations_transiions1 h1 {
+    background-color: aquamarine;
+    /* transition: all 1000ms; */
+    transition: all 800ms linear 1s;
+}
+
+#Animations_transiions_Specifically2 {
+    background-color: green;
+    border-radius: 40px;
+    transition: border-radius 4000ms;
+}
+
+/* 4 Video: Shadows and Effects */
+#Shadow_effects h1 {
+    text-shadow: 2px 2px 5px #888;
+}
+
+/* 5 Video Understanding transforms */
+
+    /* image center korar css */
+#Understanding_transforms_2d_3d img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#Understanding_transforms_2d_3d img:hover {
+    transform: scale(1.5);
+    transition: transform 800ms;
 }
